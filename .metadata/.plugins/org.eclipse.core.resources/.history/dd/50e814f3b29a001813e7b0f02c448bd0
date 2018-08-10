@@ -1,0 +1,6 @@
+package com.wind.web.dao;
+
+public interface VetSpecialtiesDao {
+	public void vetspec_deledeDao(string id);
+
+}

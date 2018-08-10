@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.wind.web.service&apos; to &apos;free-simpleboard-jdbc-s2/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;free-simpleboard-jdbc1&apos;&#x0D;&#x0A;- Destination element: &apos;free-simpleboard-jdbc-s2/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;free-simpleboard-jdbc1/src/main/java/com.wind.web.service&apos;" description="Copy package" destination="=free-simpleboard-jdbc-s2/src\/main\/java" element1="/src\/main\/java&lt;com.wind.web.service" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1532483167057" version="1.0"/>
+</session>

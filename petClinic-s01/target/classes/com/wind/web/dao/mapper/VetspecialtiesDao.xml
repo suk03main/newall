@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.wind.web.dao.VetSpecialtiesDao">
+
+
+
+	<delete id="vetspec_deleteDao">
+		DELETE FROM vet_specialties whERE vet_id in #{param1}
+	</delete>
+  	
+ <insert id="add_vetspec">
+		INSERT INTO MVC_BOARD (BID, BNAME, BTITLE, BCONTENT, BHIT, BGROUP, BSTEP, BINDENT) 
+		VALUES (MVC_BOARD_SEQ.NEXTVAL, #{param1}, #{param2}, #{param3}, 0, MVC_BOARD_SEQ.CURRVAL, 0, 0)
+	</insert>
+	<select id="VetspecialtiesDao" resultType="com.wind.web.dto.VetspecialtiesDto">
+    SELECT * FROM vet_specialties order by vet_id ASC,sepcialty_id ASC
+  </select>
+</mapper>

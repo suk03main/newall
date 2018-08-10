@@ -1,0 +1,27 @@
+package com.wind.web;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class BoardController {
+	
+	//@RequestMapping("/board/check_id")
+	
+		/*public String confirmId(
+			HttpServletRequest httpServletRequest,Model model) {
+				String id=HttpServletRequest.getParameter("id");
+				String pw=HttpServletRequest.getParameter("pw");
+				modle.addAttribute("id");
+				modle.addAttribute("pw");
+		
+		*/
+	/*	return "/board/check_id";*/
+		
+	}
+	
+
+

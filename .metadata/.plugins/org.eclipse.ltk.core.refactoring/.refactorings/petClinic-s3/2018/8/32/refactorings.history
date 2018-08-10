@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;vet_add_view.jsp&apos; to &apos;vet_add_view.jsp&apos;&#x0D;&#x0A;- Original project: &apos;petClinic-s3&apos;&#x0D;&#x0A;- Destination element: &apos;vet_add_view.jsp&apos;&#x0D;&#x0A;- Original element: &apos;vet_add_view.jsp&apos;" description="Copy file" element1="src/main/webapp/WEB-INF/views/vet_add_view.jsp" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1533690590879" target="/petClinic-s3/src/main/webapp/WEB-INF/views/vet_add_view.jsp" units="0" version="1.0"/>
+</session>

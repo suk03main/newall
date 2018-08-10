@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+  <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<!-- 의사정보(vets,vetDao이용)화면 노출&선택 -->
+<select name ="vet_id">
+	<c:forEach items="${vetslist }" var="dto"></c:forEach>
+		<option value = "${dto.id }"> ${dto.first_name}${last_name }
+</select>
+
+<!-- 전공정보(vet_specialties사용하기 위해,VetspecialitiesDao) 화면 노출& 선택 -->
+<c:forEach items="${spdialtieslist }"var="dto">
+	<input type="checkbox" id="major" name="majou" value="${dto.id}">
+	<label for="specialty_id">${dto.name}</label>
+
+</c:forEach>
+
+VetspecialitiesDao
+</body>
+</html>
