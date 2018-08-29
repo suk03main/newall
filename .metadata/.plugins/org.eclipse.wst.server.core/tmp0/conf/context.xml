@@ -30,7 +30,7 @@
     <Valve className="org.apache.catalina.valves.CometConnectionManagerValve" />
     -->
  
-      <!-- JSP : MySQL DB  사용을 위한 서버 설정        -->
+    <!-- JSP : MySQL DB  사용을 위한 서버 설정        -->
     <Resource 
       name="jdbc/WorklightDS"
       auth="Container"
@@ -43,7 +43,9 @@
       maxIdle="30"
       url="jdbc:mysql://localhost:3306/scott_db?serverTimezone=UTC&amp;characterEncoding=utf8"
     />
-       <!-- JSP : Oracle DB  사용을 위한 서버 설정        -->
+
+
+    <!-- JSP : Oracle DB  사용을 위한 서버 설정        -->
     <Resource 
       name="jdbc/Oracle11g"
       auth="Container"
@@ -55,5 +57,6 @@
       type="javax.sql.DataSource"
       url="jdbc:oracle:thin:@localhost:1521:xe"
     />
+
 
 </Context>

@@ -1,7 +1,0 @@
-package com.wind.web.dao;
-
-public interface VetSpecialtiesDao {
-	public void vetspec_deleteDao(String id);
-//	public void add_vetstec(String vet_spec,String specialtiesD
-
-}
